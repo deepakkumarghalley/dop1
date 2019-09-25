@@ -20,7 +20,7 @@ public class CommonDTO {
     private String cid_Number;
     private String passport_Type;
     private String active_Flag;
-
+     private String active_Flag1;
     public CommonDTO() {
 
     }
