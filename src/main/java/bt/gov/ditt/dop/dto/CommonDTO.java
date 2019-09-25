@@ -38,6 +38,14 @@ public class CommonDTO {
         this.active_Flag = active_Flag;
     }
 
+    public String getActive_Flag1() {
+        return active_Flag1;
+    }
+
+    public void setActive_Flag1(String active_Flag1) {
+        this.active_Flag1 = active_Flag1;
+    }
+
     public String getFull_Name() {
         return full_Name;
     }
