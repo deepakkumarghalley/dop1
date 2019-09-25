@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" default-lazy-init="true"
+       xmlns="http://www.springframework.org/schema/beans"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+   <!-- <bean id="currentUser" class="com.g2c.nhdcl.library.helper.CurrentUser" scope="request"/>
+    <bean id="responseMessage" class="com.g2c.nhdcl.library.helper.ResponseMessage" scope="request"/>
+    <bean id="beanValidator" class="com.g2c.nhdcl.library.validator.BeanValidator" scope="prototype"/>-->
+
+    <bean id="baseDao" class="bt.gov.ditt.dop.global.dao.BaseDao" abstract="true">
+        <property name="properties" ref="queryProps"/>
+    </bean>
+
+    <bean id="baseService" class="bt.gov.ditt.dop.global.service.BaseService">
+        <!--<property name="responseMessage" ref="responseMessage"/>-->
+        <!--<property name="beanValidator" ref="beanValidator"/>-->
+    </bean>
+
+</beans>

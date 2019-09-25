@@ -1,0 +1,1 @@
+CommonDao.getName = SELECT '1'

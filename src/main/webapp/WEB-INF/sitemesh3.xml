@@ -1,0 +1,5 @@
+<sitemesh>
+    <mapping path="/*" decorator="/layout/layoutMain.jsp"/>
+    <mapping path="/dopPublic" decorator="/layout/layoutLogin.jsp"/>
+
+</sitemesh>
